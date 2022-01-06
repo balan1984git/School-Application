@@ -1,31 +1,40 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  min-height: 100vh;  
+  padding:20px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(20px + 2vmin);
+  color: #0077cb;
+  margin-bottom: 3em;
 }
 
-.App-link {
-  color: #61dafb;
+.d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.d-flex div label {
+  color: #0275d8;
+  font-size: 1rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 12px !important;
+}
+
+.schoolLists {
+  width: 400px;
+}
+.standardLists {
+  width: 150px;
+}
+
+.pr-12 {
+  padding-right: 12px;
 }
 
 @keyframes App-logo-spin {

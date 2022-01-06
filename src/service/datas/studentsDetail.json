@@ -1,0 +1,21 @@
+[
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-01", "studentName": "Sai Vaishu", "tamil": "100", "english": "100", "maths": "100", "evs": "100" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-02", "studentName": "Balan", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-03", "studentName": "Ananth", "tamil": "68", "english": "78", "maths": "99", "evs": "86" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-04", "studentName": "Amirtha", "tamil": "76", "english": "64", "maths": "98", "evs": "84" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-05", "studentName": "Lakshmi", "tamil": "54", "english": "84", "maths": "94", "evs": "76" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-06", "studentName": "Charu", "tamil": "89", "english": "65", "maths": "94", "evs": "69" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-07", "studentName": "Arun", "tamil": "67", "english": "59", "maths": "92", "evs": "82" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-08", "studentName": "Saikumar", "tamil": "98", "english": "73", "maths": "90", "evs": "58" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-09", "studentName": "Ravi", "tamil": "99", "english": "94", "maths": "89", "evs": "84" },
+    { "schoolName": "Sankara School", "classId": "LKG", "studentId": "LKG-10", "studentName": "Mani", "tamil": "100", "english": "71", "maths": "85", "evs": "65" },
+    
+    { "schoolName": "Sankara School", "classId": "UKG", "studentId": "UKG-01", "studentName": "Bhavani", "tamil": "90", "english": "76", "maths": "85", "evs": "64" },
+    { "schoolName": "Sankara School", "classId": "I", "studentId": "I-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Velammal Mat. Hr. Sec. School", "classId": "VI", "studentId": "VI-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Velammal Mat. Hr. Sec. School", "classId": "VII", "studentId": "VII-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Velammal Mat. Hr. Sec. School", "classId": "VIII", "studentId": "VIII-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Vani School", "classId": "X", "studentId": "X-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Vani School", "classId": "XI", "studentId": "XI-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" },
+    { "schoolName": "Vani School", "classId": "XII", "studentId": "XII-01", "studentName": "Mani", "tamil": "90", "english": "95", "maths": "100", "evs": "75" }
+]

@@ -1,0 +1,11 @@
+[
+    { "schoolId": "1000", "classId": "LKG", "value": "LKG", "label": "LKG" },
+    { "schoolId": "1000", "classId": "UKG", "value": "UKG", "label": "UKG" },
+    { "schoolId": "1000", "classId": "I", "value": "I", "label": "I" },
+    { "schoolId": "1001", "classId": "VI", "value": "VI", "label": "VI" },
+    { "schoolId": "1001", "classId": "VII", "value": "VII", "label": "VII" },
+    { "schoolId": "1001", "classId": "VIII", "value": "VIII", "label": "VIII" },
+    { "schoolId": "1002", "classId": "X", "value": "X", "label": "X" },
+    { "schoolId": "1002", "classId": "XI", "value": "XI", "label": "XI" },
+    { "schoolId": "1002", "classId": "XII", "value": "XII", "label": "XII" }
+]

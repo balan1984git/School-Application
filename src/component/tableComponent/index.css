@@ -1,0 +1,50 @@
+.marksHead {
+    text-align: center;
+    color: #0275d8;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 8px !important;
+}
+
+table {
+    border: 2px solid #333333;
+    margin-top: 2em;
+    min-width: 100%;
+    padding:0px !important;
+    border-collapse: collapse;
+}
+
+table thead tr td {
+    padding:0px !important;
+    border-collapse: collapse;
+    border-bottom: 1px solid #333333;
+}
+
+table thead tr:nth-child(2) td {
+    text-align: center;
+    color:#00afd7;
+    font-weight: 600;
+    border-bottom: 2px solid #333333;
+}
+
+table tbody tr td {
+    padding:4px;
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom: 1px solid #333333;
+}
+
+table tbody tr td:nth-child(1) { 
+    text-align: left;
+}
+
+table tr td {
+    width: 10%;
+    border-right: 1px solid #333333;
+}
+
+.noRecord {
+    text-align: center !important;
+    font-size: 12px;
+    padding:30px;
+}
