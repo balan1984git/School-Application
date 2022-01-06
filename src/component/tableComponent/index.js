@@ -3,7 +3,7 @@ import StudentsDetail from "./../../service/datas/studentsDetail.json";
 import "./index.css";
 
 const TableComponent = (props) => {
-  const { selectedSchool, selectedStandard } = props;
+  const { selectedSchool, selectedStandard, sendDataToApp } = props;
   const [studentDetail, setStudentDetail] = useState(StudentsDetail);
   const [selectedStudent, setSelectedStudent] = useState([]);
   const [selectedSchoolData, setSelectedSchoolData] = useState([]);
@@ -18,16 +18,19 @@ const TableComponent = (props) => {
       );
       setSelectedStudent(studDetails);
       setSelectedStandardData(studDetails);
+      sendDataToApp(studDetails.length)
     } else if (selectedSchool !== "") {
       const schoolData = studentDetail.filter(
         (data) => data.schoolName === selectedSchool.value
       );
       setSelectedSchoolData(schoolData);
+      sendDataToApp(schoolData.length)
     } else if (selectedStandard !== "") {
       const standardData = studentDetail.filter(
         (data) => data.classId === selectedStandard.classId
       );
       setSelectedStandardData(standardData);
+      sendDataToApp(standardData.length)
     }
   }, [selectedSchool, selectedStandard]);
 

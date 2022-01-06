@@ -3,6 +3,7 @@ import Select from 'react-select';
 import TableComponent from './component/tableComponent'
 import SchoolData from './service/datas/schoolList.json';
 import StandardData from './service/datas/standardList.json';
+import StudentsDetail from "./service/datas/studentsDetail.json";
 import './App.css';
 
 
@@ -11,6 +12,7 @@ const App = () => {
   const [selectedStandard, setSelectedStandard] = useState(null);
   const [schoolLists, setSchoolLists] = useState([]);
   const [standardLists, setStandardLists] = useState([]);
+  const [ totalStudent, setTotalStudent ] = useState("");
 
   const handleSelectedSchool = (selectedOption) => {
     const { schoolId } = selectedOption;
@@ -33,6 +35,10 @@ const App = () => {
     setStandardLists(StandardData);
 }, [])
 
+const getData = (data) => {
+  setTotalStudent(data);
+}
+
   return (
     <div className="App">
     <header className="App-header">
@@ -49,7 +55,7 @@ const App = () => {
         className="schoolLists"
       />
       </div>
-    <div>
+    <div className="pr-12">
       <label>Standards</label>
       <Select
         value={selectedStandard}
@@ -58,8 +64,12 @@ const App = () => {
         className="standardLists"
       />
       </div>
+      <div>
+        <label>Total Students:</label>
+        <p className="totalCount">{totalStudent !== "" ? totalStudent : StudentsDetail.length > 0 ? StudentsDetail.length : "0"}</p>
       </div>
-      <TableComponent selectedSchool={selectedSchool ? selectedSchool : ""} selectedStandard={selectedStandard ? selectedStandard : ""} />
+      </div>
+      <TableComponent sendDataToApp={getData} selectedSchool={selectedSchool ? selectedSchool : ""} selectedStandard={selectedStandard ? selectedStandard : ""} />
       </div>
     </div>
   );
