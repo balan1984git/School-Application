@@ -3,7 +3,6 @@
     color: #0275d8;
     font-weight: 600;
     font-size: 1rem;
-    padding: 8px !important;
 }
 
 table {
@@ -15,7 +14,7 @@ table {
 }
 
 table thead tr td {
-    padding:0px !important;
+    padding: 8px !important;
     border-collapse: collapse;
     border-bottom: 1px solid #333333;
 }
@@ -28,7 +27,7 @@ table thead tr:nth-child(2) td {
 }
 
 table tbody tr td {
-    padding:4px;
+    padding:8px;
     text-align: center;
     border-collapse: collapse;
     border-bottom: 1px solid #333333;
